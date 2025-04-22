@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th{
+           position: sticky; 
+           top: -1px;
+           background-color: gray;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(even){
+          background-color: lightgray;  
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+
+    <table>
+        <caption>População do Sudeste</caption>
+        <thead>
+        <tr>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
+        </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+        <tr>
+            <th scope="row">Total de Habitantes</th>
+            <td>83 200 543</td>
+        </tr>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci atque accusamus sunt molestiae culpa earum. Similique libero reprehenderit optio maxime. Odit esse blanditiis obcaecati vero quas numquam, provident libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aliquid sint ullam, amet facilis aliquam incidunt ipsam vitae illum sunt mollitia magnam repellendus, vero nihil a iusto aperiam est recusandae.
+    Ad odit, veritatis consequatur dolores, quis animi tempora possimus ipsum officia molestias saepe quod quibusdam porro dolore nulla laboriosam hic, quisquam impedit minima! Quas earum repudiandae repellat aperiam ab fugiat!
+    Blanditiis veritatis eveniet aperiam ducimus nemo obcaecati nobis quo, magni qui, quidem consectetur porro quis harum architecto, eos dolor deleniti. Ratione laborum illo ipsum culpa temporibus qui, aspernatur recusandae consectetur.
+    Fugit, inventore hic. Tempore, quo necessitatibus. Debitis veniam numquam voluptates eum. Numquam repudiandae delectus eius soluta dicta? Necessitatibus, dignissimos optio! Iste error cupiditate in labore. Optio consequuntur ad impedit placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae placeat reprehenderit consequuntur repudiandae modi laboriosam, maiores nesciunt molestiae, dicta ipsum a nam numquam odio, exercitationem incidunt suscipit corrupti accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo repellat sit soluta molestiae reprehenderit ipsum deleniti tenetur, numquam quod molestias doloremque, pariatur ullam quisquam consequuntur iusto natus, nobis atque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, repellat aliquid dolor soluta consequatur illum numquam vel saepe magni aspernatur incidunt, placeat inventore sint non reiciendis a atque expedita quidem.</p>
+</body>
+</html>

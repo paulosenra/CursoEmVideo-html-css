@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 95vw;
+            height: 450px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, facere saepe? Incidunt totam id, minima reiciendis et earum suscipit dignissimos rerum inventore iusto tempore officiis perspiciatis non similique sequi soluta.</p>
+
+    <ul>
+        <li><a href="paginasextras/pagina001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginasextras/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginasextras/pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi distinctio nihil voluptate voluptas dicta? Veritatis laborum maxime delectus obcaecati quae soluta vel ab fugiat consectetur! Tempora quas voluptatibus eaque possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facere ad quos voluptate temporibus maiores dolorum at inventore omnis blanditiis est sint et soluta aspernatur, placeat adipisci, nesciunt ea aliquam?</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opcões acima</h1><p>Lorem</p>" frameborder="1" id="tela" name="frame">
+        Infelizmente seu navegador não é compátivel.
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea vel, maxime sunt cupiditate deleniti laboriosam minima accusantium, dolores illum, tempore aliquid harum iste quos alias sit mollitia! Mollitia, vitae quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Id autem eveniet laudantium sit dolorem ipsam, accusantium facere facilis non unde, molestias nostrum ratione est cupiditate a consectetur corrupti velit qui.</p>
+</body>
+</html>
